@@ -1,8 +1,7 @@
 # EVCTask1
-interface that upload image and do some features on it by using openCV 
+ # interface that upload image and do some features on it by using openCV 
 
-
- the interface when you running the code
+# the interface when you running the code
  ![Screenshot (199)](https://github.com/RaghadAlruwily/EVCTask1/assets/100563503/916afa04-5959-4a34-9819-1cba86ffb189)
 
 def selectPic():
@@ -20,7 +19,9 @@ def selectPic():
     src = cv2.imread(path)
     canvas.create_image(380,340, image=img)
 
-    # the code on above is for upload images to the interface
+
+# the code on above is for upload images to the interface 
+   
 
  ![Screenshot 2023-07-16 075757](https://github.com/RaghadAlruwily/EVCTask1/assets/100563503/cddd3798-174e-4a13-9c0d-36b93fb6af33)
 
@@ -58,8 +59,8 @@ def upRotate():
             #tk.Label(win, image=img, width=380, height=320)
 
 
-            # all methods on above is for rotate the image 90 degree
-            # * methods run but on another window
+   # all methods on above is for rotate the image 90 degree
+   * methods run but on another window
 
             onImg = Image.open("/Users/AEliP/Downloads/switchOn.png")
 on = onImg.resize((60,30), Image.Resampling.LANCZOS)
@@ -99,7 +100,7 @@ def switch():
         tk.Label(win, image=imgtk, width=380, height=320).pack() 
         #cv2.waitKey(1)
 
-        #here to switch the on/off button, this button was for convert RBG colors into HSL for image
+   # here to switch the on/off button, this button was for convert RBG colors into HSL for image
 
         upl = Image.open("/Users/AEliP/Downloads/button.png")
        upload = upl.resize((60,60), Image.Resampling.LANCZOS)
