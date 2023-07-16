@@ -22,7 +22,7 @@ def selectPic():
 
     # the code on above is for upload images to the interface
 
-    ![Screenshot 2023-07-16 075757](https://github.com/RaghadAlruwily/EVCTask1/assets/100563503/cddd3798-174e-4a13-9c0d-36b93fb6af33)
+ ![Screenshot 2023-07-16 075757](https://github.com/RaghadAlruwily/EVCTask1/assets/100563503/cddd3798-174e-4a13-9c0d-36b93fb6af33)
 
 
     def rightRotate():
